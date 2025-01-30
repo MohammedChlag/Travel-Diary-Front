@@ -1,0 +1,22 @@
+[
+  {
+    "name": "home",
+    "text": "Home",
+    "url": "/"
+  },
+  {
+    "name": "add",
+    "text": "New",
+    "url": "/new-travel"
+  },
+  {
+    "name": "info",
+    "text": "About",
+    "url": "/about"
+  },
+  {
+    "name": "email",
+    "text": "Contact",
+    "url": "/contact"
+  }
+]

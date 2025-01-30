@@ -1,0 +1,35 @@
+[
+  {
+    "name": "account_circle",
+    "text": "Profile",
+    "url": "/profile"
+  },
+  {
+    "name": "dark_mode",
+    "text": "Dark mode"
+  },
+  {
+    "name": "light_mode",
+    "text": "Light mode"
+  },
+  {
+    "name": "group",
+    "text": "Companions",
+    "url": "/companions"
+  },
+  {
+    "name": "how_to_reg",
+    "text": "Sign up",
+    "url": "/signup"
+  },
+  {
+    "name": "login",
+    "text": "Login",
+    "url": "/login"
+  },
+  {
+    "name": "logout",
+    "text": "Logout",
+    "url": "/login"
+  }
+]

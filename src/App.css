@@ -1,0 +1,28 @@
+.hidden {
+  display: none;
+}
+
+.Toastify div div.Toastify__toast {
+  margin-top: '4rem';
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+
+  .Toastify__close-button {
+    display: none;
+  }
+}
+
+span.material-symbols-outlined {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(211, 211, 211, 0.5);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

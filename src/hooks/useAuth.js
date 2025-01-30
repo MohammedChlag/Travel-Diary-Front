@@ -1,7 +1,7 @@
 import { useContext } from 'react'
-import { AuthContext } from '../context/useAuth/AuthContext.js'
+import { AuthContext } from '../context/auth/AuthContext.js'
 
-export const useAuth = () => {
+const useAuth = () => {
   const { token, currentUser, onLogin, onLogout } = useContext(AuthContext)
 
   return {
@@ -11,3 +11,5 @@ export const useAuth = () => {
     onLogout,
   }
 }
+
+export default useAuth

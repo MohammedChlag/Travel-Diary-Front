@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { Outlet, useSearchParams } from 'react-router-dom'
-import { toast } from 'react-toastify'
-import { useAuth } from '../hooks/useAuth.js'
-// import { useAuth } from '../hooks/useAuth.js'
+import { toast, ToastContainer } from 'react-toastify'
+import useAuth from '../hooks/useAuth.js'
+import Navbar from '../components/navbar/Navbar.jsx'
 
 const Layout = () => {
   const [searchParams] = useSearchParams()
@@ -33,8 +33,23 @@ const Layout = () => {
   }, [type, message])
   return (
     <>
-      <div>Layout</div>
-      <Outlet />
+      <Navbar />
+      <main>
+        <h1>Layout</h1>
+        <Outlet />
+        <ToastContainer
+          position='top-right'
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={true}
+          closeOnClick={true}
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme='colored'
+        />
+      </main>
     </>
   )
 }
